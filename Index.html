@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Validation</title>
+    <link rel="stylesheet" href="./Style.css" />
+    <link
+      rel="stylesheet"
+      href="../../../bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"
+    />
+  </head>
+
+  <body>
+    <div class="row m-5">
+      <div class="col-md-8 m-auto">
+        <h6>
+          username :
+          <span id="username"> <i>Please write something</i></span>
+        </h6>
+        <h6>
+          password :
+          <span id="password"><i>Please select a password</i></span>
+        </h6>
+
+        <hr />
+
+        <form action="" class="form">
+          <div class="form-group">
+            <label for="Username">Username</label>
+            <input
+              class="form-control"
+              type="text"
+              name="username"
+              id="Username"
+              placeholder="Username"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Passwrod">Passwrod</label>
+            <input
+              class="form-control"
+              type="password"
+              name="password"
+              id="Passwrod"
+              placeholder="Passwrod"
+            />
+          </div>
+          <input
+            class="btn btn-success mt-3"
+            type="submit"
+            name="submit"
+            value="Submit"
+          />
+        </form>
+
+        <hr />
+
+        <h6>
+          See password :
+          <span id="see-password"><i>Please select a password</i></span>
+        </h6>
+      </div>
+    </div>
+    <script src="./Script.js"></script>
+    <script src="../../../bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+  </body>
+</html>
